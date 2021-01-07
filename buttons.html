@@ -13,7 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
   <style>
-	<style>
 	button {
 	  background-color: #ff9900;
 	  border: none;
@@ -60,9 +59,19 @@
 
 
     <!-- Completes Requirement #1 --!>
-    <p id="demo"></p>
-      <button onclick="myFunction()">Click me</button>
-      <button onclick="myOtherFunction()">Click me</button>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="well well-sm">
+              <form class="form-horizontal" action="" onsubmit="return false">
+              <fieldset>
+                <h1 class="text-center">Arguing Buttons</h1>
+                <br>
+      
+		<!-- Button Creation --!>
+     		<p id="demo"></p>
+      		<button onclick="myFunction()">Click me</button>
+      		<button onclick="myOtherFunction()">Click me</button>
 
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
