@@ -40,9 +40,21 @@
               </div>
             </nav>
           </div>
-
-
-
+        </div>
+        </div>
+      </div>
+    <div class="mx-auto" style="width: 50px; " id = "textBody">
+        <p>Don't</p>
+        <p>hover</p>
+        <p>over</p>
+        <p>me</p>
+    </div>
+    <script>
+        let text = document.getElementById("textBody");
+        text.addEventListener("mouseover", function(enter) {
+            window.alert("Hey, I told you not to hover over me!");
+        }, false);
+    </script>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
