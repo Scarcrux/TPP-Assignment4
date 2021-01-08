@@ -1,13 +1,14 @@
-# Assignment #4: DOM Challenges II
+## Assignment #4: DOM Challenges II ##
 
-# Goal
+## Goal
 
 Further demonstrate understanding of DOM manipulation, events, and forms. Build familiarity with JS syntax.
-# Direction
+
+## Direction
 
 It is up to you and your group: either make separate HTML files for each prompt, or organize the assignment such that everything is on one page. If you want to run the same JavaScript on several pages in a web site, you should create an external JavaScript file, instead of writing the same script over and over again. Save the script file with a .js extension, and then refer to it using the src attribute in the <script> tag.
 
-# Assignment:
+## Assignment
 
 Create an HTML page with two buttons that argue with each other. When one button is clicked, the text "I'm right" should be placed next to it. When the other button is clicked, the text is replaced with, "No, I'm right!"
 
@@ -26,7 +27,7 @@ Add a CSS stylesheet that styles all of your pages.
 
 BONUS: Create an HTML page with a form that asks the user to input the value of a sphere's radius. Write Javascript that gives them back the volume of the sphere. (There are many different ways to execute this. You can give the user information back in another input box on the page, as an alert, or any other way you can think of. You can look up how to use the Javascript Math object to simplify your calculations.)
 
-# Grading criteria:
+## Grading criteria
 
 Code has a comment that notes which problem the code snippet is attempting to solve.
 
